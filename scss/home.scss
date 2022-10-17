@@ -5,9 +5,14 @@ body {
 nav {
     li{
         list-style: none;
+        background-color: #F7C600;
+        margin: 15px 0px;
+        padding-left: 25vw;
+        padding-right: 20px;
+        border-radius: 0px 5px 5px 0px;
 
         a{
-            color: #F7C600;
+            color: #ffff;
         }
     }
 }
@@ -15,13 +20,14 @@ nav {
 
 .grilla-prin {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
 
 .img-prin {
     height: 100vh;
+    margin-right: 200px;
 }
 
 .link-nav {
