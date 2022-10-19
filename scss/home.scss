@@ -10,9 +10,16 @@ nav {
         padding-left: 25vw;
         padding-right: 20px;
         border-radius: 0px 5px 5px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 270px;
+        height: 100px;
+        transition: 2s ease-out;
 
         a{
             color: #ffff;
+            overflow: hidden;
         }
     }
 }
@@ -37,7 +44,19 @@ nav {
     font-weight: 100;
 }
 
+.link-nav-oculto {
+    text-decoration: none;
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    opacity: 0;
+    display: none;
+}
+
 footer {
+    background-color: #b7b7b7;
+    padding: 4px;
+    margin-top: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -48,7 +67,20 @@ footer {
     }
 
     a {
+        color: #675200;
         font-family: 'Roboto', sans-serif;
         font-weight: 900;
     }
+}
+
+li:hover > .link-nav {
+    transition: 1s ease;
+    opacity: 0;
+    display: none;
+}
+
+li:hover > .link-nav-oculto {
+    transition: 1s ease;
+    opacity: 1;
+    display: block;
 }
