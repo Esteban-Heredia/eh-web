@@ -2,10 +2,10 @@
   margin: 0px;
   padding: 0px; }
 
-body {
+.index-prin {
   background-color: #eaeaea; }
 
-nav li {
+.nav-index li {
   list-style: none;
   background-color: #F7C600;
   margin: 15px 0px;
@@ -18,7 +18,7 @@ nav li {
   width: 270px;
   height: 100px;
   transition: 2s ease-out; }
-  nav li a {
+  .nav-index li a {
     color: #ffff;
     overflow: hidden; }
 
@@ -69,3 +69,74 @@ li:hover > .link-nav-oculto {
   transition: 1s ease;
   opacity: 1;
   display: block; }
+
+.body-sec {
+  background-color: #eaeaea; }
+  .body-sec .nav-sec ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    .body-sec .nav-sec ul li {
+      text-decoration: none;
+      list-style: none; }
+      .body-sec .nav-sec ul li .logo-back {
+        padding: 20px;
+        width: 80px; }
+  .body-sec .nav-sec .nav-div-sec {
+    display: flex;
+    flex-direction: row; }
+    .body-sec .nav-sec .nav-div-sec li {
+      background-color: #3c3c3c;
+      padding-top: 6vmax;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 0px 20px;
+      border-radius: 0px 0px 5px 5px; }
+      .body-sec .nav-sec .nav-div-sec li .link-div-nav {
+        color: #ffffff;
+        font-size: 35px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100; }
+      .body-sec .nav-sec .nav-div-sec li .link-div-nav:hover {
+        color: #F7C600; }
+  .body-sec .pres-sec {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    margin: 80px 40px 20px; }
+  .body-sec .desc-sec {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 20px 80px 20px;
+    text-align: center; }
+  .body-sec .block-gral {
+    margin-top: 80px; }
+    .body-sec .block-gral .block-prin {
+      display: flex; }
+      .body-sec .block-gral .block-prin img {
+        width: 70%;
+        height: auto; }
+      .body-sec .block-gral .block-prin .block-text {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .body-sec .block-gral .block-prin .block-text h2 {
+          font-weight: 400; }
+        .body-sec .block-gral .block-prin .block-text p {
+          font-weight: 300; }
+        .body-sec .block-gral .block-prin .block-text .name-pro {
+          font-size: 45px; }
+        .body-sec .block-gral .block-prin .block-text .des-pro {
+          margin: 10px 35px;
+          font-size: 20px; }
+    .body-sec .block-gral .block-sec {
+      display: flex;
+      justify-content: center; }
+      .body-sec .block-gral .block-sec img {
+        margin: 20px; }

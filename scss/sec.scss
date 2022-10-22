@@ -1,0 +1,126 @@
+.body-sec {
+    background-color: #eaeaea;
+
+    .nav-sec {
+    
+    
+    
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+    
+            li {
+                text-decoration: none;
+                list-style: none;
+                
+    
+                .logo-back {
+                    padding: 20px;
+                    width: 80px;
+                }
+            }
+        }
+    
+        .nav-div-sec {
+            display: flex;
+            flex-direction: row;
+    
+            li {
+                background-color: #3c3c3c;
+                padding-top: 6vmax;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin: 0px 20px;
+                border-radius: 0px 0px 5px 5px;
+    
+    
+    
+                .link-div-nav {
+                    color: #ffffff;
+                    font-size: 35px;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 100;
+                    }
+
+                    .link-div-nav:hover {
+                        color: #F7C600;
+                    }
+            }
+    
+        }
+    }
+
+    .pres-sec {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 80px;
+        text-align: center;
+        margin: 80px 40px 20px;
+    }
+
+    .desc-sec {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        margin: 20px 80px 20px;
+        text-align: center;
+    }
+
+
+    .block-gral {
+        margin-top: 80px;
+
+
+        .block-prin {
+            display: flex;
+    
+            img {
+                width: 70%;
+                height: auto;
+            }
+    
+            .block-text {
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h2 {
+                    font-weight: 400;
+                }
+
+                p {
+                    font-weight: 300;
+                }
+    
+    
+                .name-pro {
+                    font-size: 45px;
+                }
+    
+                .des-pro {
+                    margin: 10px 35px;
+                    font-size: 20px;
+                }
+    
+            }
+        }
+    
+        .block-sec {
+            display: flex;
+            justify-content: center;
+    
+            img {
+                margin: 20px;
+            }
+        }
+    }
+    
+
+
+}
+
