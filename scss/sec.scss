@@ -121,6 +121,28 @@
     }
     
 
+    .block-link {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 50px;
+        
+        .link-dev {
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: 35px;
+            background-color: #3c3c3c;
+            padding: 15px 70px;
+            border-radius: 5px;
+            color: #ffffff;
+        }
+
+        .link-dev:hover {
+            color: #F7C600;
+        }
+    }
+
 
 }
 
