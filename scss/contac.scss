@@ -1,0 +1,60 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    fieldset {
+        text-decoration: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    label {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        margin: 15px;
+    }
+
+    input {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 7px;
+        margin: 10px;
+        border-color: #d2d2d2;
+
+    }
+
+    .boton {
+        color: white;
+        background-color: #3c3c3c;
+    }
+
+    .boton:hover {
+        color: #F7C600;
+    }
+    
+    input:hover {
+        border-color: #F7C600;
+    }
+
+    textarea {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        padding: 20px;
+        width: 400px;
+        border-radius: 7px;
+    }
+
+
+    textarea:hover {
+        border-color: #F7C600;
+    }
+
+}
